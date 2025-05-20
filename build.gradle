@@ -14,7 +14,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "chaoscraft" {
+        "fabrictemplatemod" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fabrictemplatemod",
+  "version": "${version}",
+  "name": "Fabric Template Mod",
+  "description": "Just a Template",
+  "authors": [
+    "Sebiann"
+  ],
+  "contact": {
+    "email": "code@sebiann.moe",
+    "homepage": "https://sebiann.moe",
+    "issues": "https://github.com/Sebiann/fabric-mod-template/issues",
+    "sources": "https://github.com/Sebiann/fabric-mod-template"
+  },
+  "license": "GPL-3.0",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "moe.sebiann.fabrictemplatemod.FabricTemplateMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
